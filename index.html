@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dragon Bibi</title>
+    <link href="static/css/2.58a45539.chunk.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css'>
+    <link href="static/css/main.690a8bfd.chunk.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        @font-face {
+            font-family: myFirstFont;
+            src: url(static/font/TaipeiSansTCBeta-Bold.otf);
+        }
+
+        * {
+            font-family: myFirstFont;
+        }
+    </style>
+</head>
+
+<body style="background: url('static/media/bg.png') no-repeat fixed center;background-size: cover;">
+
+<!--nav-->
+<nav class="navbar navbar-expand-lg navbar-dark"
+     style="background-image: linear-gradient(34deg, #0082fd, #da00c3);box-shadow: 5px;
+    /* box-shadow: 2px 5px #664f24b0; */
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 5px 26px 0px #d900c3;
+    box-shadow: 0px 10px 13px -7px #000000, 0px 5px 26px 0px #d900c3;">
+    <a class="navbar-brand" href="index.html"><img src="static/image/logo.png" id="nav_image"></a>
+    <div id="hidden">
+        <a href="https://www.instagram.com/dragonbibi.nft/" class="Community_socialLink__2s7UR"
+           rel="noopener noreferrer" target="_blank"><img
+                src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png" class="icon_image"/></a>
+        <a href="https://www.facebook.com/Dragonbibi.nft" class="Community_socialLink__2s7UR"
+           rel="noopener noreferrer" target="_blank"><img
+                src="https://img.icons8.com/ios-glyphs/30/ffffff/facebook-new.png" class="icon_image"/></a>
+        <a href="https://discord.gg/9eGfq3S6jK" class="Community_socialLink__2s7UR" rel="noopener noreferrer"
+           target="_blank"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/discord-logo.png"
+                                class="icon_image"/></a>
+        <a href="https://twitter.com/Dragonbibi_nft" rel="noopener noreferrer" target="_blank"
+           class="Community_socialLink__2s7UR"><img
+                src="https://img.icons8.com/ios-glyphs/30/ffffff/twitter&#45;&#45;v1.png"
+                class="icon_image"/></a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+            style="height: 80px; width: 80px;">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#project">
+                    比比龍NFT
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="l2.html">
+                    關於葉文龍
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#second_header">
+                    比比龍故事
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="l1.html">
+                    I-1 世界泰拳賽會
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#benefits">NFT 功能</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#team">團隊</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#video">比比龍支持者</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#faq">問與答</a>
+            </li>
+        </ul>
+        <div class="row" id="social">
+            <div class="btn-group col-4 text-center" role="group" aria-label="Button group with nested dropdown">
+                <div class="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Language
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <a class="dropdown-item" href="#">Chinese</a>
+                        <a class="dropdown-item" href="#">English</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <a href="https://www.instagram.com/dragonbibi.nft/" class="Community_socialLink__2s7UR"
+                   rel="noopener noreferrer" target="_blank"><img
+                        src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png" class="icon_image"/></a>
+            </div>
+            <div class="col-2">
+                <a href="https://www.facebook.com/Dragonbibi.nft" class="Community_socialLink__2s7UR"
+                   rel="noopener noreferrer" target="_blank"><img
+                        src="https://img.icons8.com/ios-glyphs/30/ffffff/facebook-new.png" class="icon_image"/></a>
+            </div>
+            <div class="col-2">
+                <a href="https://discord.gg/9eGfq3S6jK" class="Community_socialLink__2s7UR" rel="noopener noreferrer"
+                   target="_blank"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/discord-logo.png"
+                                        class="icon_image"/></a>
+            </div>
+            <div class="col-2">
+                <a href="https://twitter.com/Dragonbibi_nft" rel="noopener noreferrer" target="_blank"
+                   class="Community_socialLink__2s7UR"><img
+                        src="https://img.icons8.com/ios-glyphs/30/ffffff/twitter&#45;&#45;v1.png"
+                        class="icon_image"/></a>
+            </div>
+
+        </div>
+    </div>
+
+</nav>
+
+<!--banner-->
+<section class="Header_bannerWrapper__3FaCl">
+    <div style="height: 1000px;">
+        <img src="static/image/new_banner.jpg" style="max-height: 1000px;width: 100%"/>
+    </div>
+    <!--<img src="static/image/logo.png" alt="banner" class="Header_banner__3HEai pt-5">
+    <img src="static/media/overview.png" alt="overview" class="Header_overview__3sAoG">-->
+    <div class="Header_bcontent__3GGQE">
+        <button type="button" class="Button_button__1-zFo Header_bannerButton__3aBX2" style="font-family: myFirstFont;">
+            Mint
+        </button>
+    </div>
+</section>
+
+<!--content-->
+<section class="Body_block__3xzRY">
+    <section class="ScaryMeter_section__3pQil" id="project">
+        <div class="ScaryMeter_content__19WJY background">
+            <div class="ScaryMeter_title__aDC-x" id="first_header">項目概述</div>
+            <div class="ScaryMeter_text__1O1-h">
+                津一國際有限公司誠邀I-1世界泰拳賽會創辦人葉文龍師傳推出首個名為《比比龍 Dragon
+                BiBi》NFT系列，將以泰拳為主題，設計出身穿泰拳運動服、佩戴I-1拳賽金腰帶的卡通龍公仔，共包含3,500個獨一無二的NFT !
+                <br/><br/>
+                這是關於一群比比龍下定決心改變自己夢想星球的特殊旅程。故事從一個璀璨的擂台開始。<br/>
+                首個推出的《Dragon BiBi》NFT系列，當中提及到「比比龍」展開獲得I-1金腰帶的奇幻歷險。
+                <br/>
+                明星 X 拳王加持 《Dragon BiBi》亦有拳王加持，除了有世界各地拳王站台，更有多名藝人、導演、歌手及各介別專業人仕支持等等。
+                團隊未來會陸續公布更多為項目站台的KOL、拳王、歌手等。<br/><br/>
+            </div>
+            <hr style="border: 2px solid #fff;border-radius: 5px; width: 80%;box-shadow:  0px 7px 10px 0px #fff;">
+
+            <div class="ScaryMeter_title__aDC-x mt-3" id="second_header">比比龍故事</div>
+            <iframe width="860" height="500" src="https://www.youtube.com/embed/e92HZ9OR8gM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="ScaryMeter_text__1O1-h">
+                這是關於一群比比龍下定決心改變自己夢想星球的特殊旅程。故事從一個璀璨的擂台開始。<br/>
+                每一年比比龍都會在地球採集他們最喜歡吃的辣椒回到夢想星球，但在2005年採集的時間，無意之中觀看了地球上I-1的泰拳比賽，
+                發現這個運動十分有趣和熱血。比比龍決定要把這種運動帶到他們的夢想星球。<br/><br/>
+                簡單的比比龍意識了一個可怕的事實，他們只是觀看了一次泰拳比賽，完全沒辦法參透當中奧妙。七千年他們第一次召集了所有比比龍開會，
+                制定了一個計劃。並一致贊成，要去地球學習這一個泰拳運動<br/><br/>
+                比比龍要進化起來！<br/>
+                為了要學習泰拳這個運動，1750隻比比龍離開了夢想星球向地球進發，
+                比比龍為了可以和其他比比龍持續保持聯繫在元宇宙中建立了「比比龍社區」。<br/>
+                去到地球亦幸運地得到金袍拳王幫助下，比比龍成功學習到泰拳並且進化了全勝比比龍，
+                亦成功獲得I-1金腰帶。而且他們為了感謝地球，留下了3500個夢想星球比比龍的照片（NFT)。
+            </div>
+            <hr style="border: 2px solid #fff;border-radius: 5px; width: 80% ;box-shadow: 0px 7px 10px 0px #fff;">
+
+            <div class="ScaryMeter_title__aDC-x mt-3" id="benefits" style="font-family:myFirstFont;">
+                比比龍NFT福利享受
+            </div>
+            <div>
+                <ul class="ScaryMeter_benefits__1tQQS">
+                    <li>購買後可即時欣賞過去及未來I-1比賽
+                    </li>
+                    <li>可隨機抽世界各地現場泰拳I-1比賽</li>
+                    <li>日後會把收益在元宇宙購買地皮建立比比龍打泰拳的空間</li>
+                    <li>未來將會推出比比幣，推出押幣，賺取高利息</li>
+                    <li>未來會推出泰拳遊戲賺取比比幣</li>
+                    <li>為支持泰拳活動，可以在六間泰拳店舖,學習泰拳所有課程獲得九折優惠</li>
+
+                </ul>
+            </div>
+            <div class="ScaryMeter_nfts__3HbBF">
+                <div class="slick-slider ScaryMeter_slide__1ywuN slick-initialized" dir="ltr">
+                    <div class="slick-list" style="padding: 0px 50px;">
+                        <div class="slick-track">
+                            <div class="row mt-5">
+                                <div class="col-4">
+                                    <img src="static/image/1.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-4 text-center">
+                                    <img src="static/image/2.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-4 text-right">
+                                    <img src="static/image/3.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-4 text-center">
+                                    <h6>Swish Club Thai Boxing and Fitness</h6>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <h6>Ray's Muay Thai and Fitness Gym</h6>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <h6>Muay Thai Station</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-4">
+                                    <img src="static/image/4.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-4 text-center">
+                                    <img src="static/image/5.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-4 text-right">
+                                    <img src="static/image/6.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-4 text-center">
+                                    <h6>Youth Union</h6>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <h6>Kim Ip Professional Thai Boxing Fitness</h6>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <h6>OLE Muay Thai and Fitness</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <ul class="ScaryMeter">
+                    <li>優先100張終身門票NFT推出</li>
+                </ul>
+            </div>
+            <div class="row container four_image">
+                <div class="col-md-6 text-right">
+                    <img src="static/media/new1.jpg" style="width:200px; height:200px">
+                </div>
+                <div class="col-md-6 text-left">
+                    <img src="static/media/new2.jpg" style="width:200px; height:200px">
+                </div>
+            </div>
+            <div class="row container text-center mt-3 four_image">
+                <div class="col-md-6 text-right">
+                    <img src="static/media/new3.jpg" style="width:200px; height:200px">
+                </div>
+                <div class="col-md-6 text-left">
+                    <img src="static/media/new4.jpg" style="width:200px; height:200px">
+                </div>
+            </div>
+
+            <div class="ScaryMeter_top__17yl3">
+                <div class="ScaryMeter_left__GSfNd">
+                    <div class="ScaryMeter_description__1J6NZ">
+                        <div class="ScaryMeter_txt__rW-wA"></div>
+                        <img src="static/media/Dragonbibi.gif" width="100%">
+                    </div>
+                </div>
+            </div>
+            <div class="ScaryMeter_title__aDC-x" id="video">比比龍支持者</div>
+
+        </div>
+        <div class="ScaryMeter_nfts__3HbBF">
+            <div class="slick-slider ScaryMeter_slide__1ywuN slick-initialized" dir="ltr">
+                <div class="slick-list" style="padding: 0px 50px;">
+                    <div class="slick-track">
+                        <h4 class="text-center">200位世界各地拳王、藝人、歌手、導演及各界專業人士支持。</h4>
+                        <div class="row mt-5">
+                            <div class="col-4">
+                                <iframe style="width: 100%; height: 200px;"
+                                        src="https://www.youtube.com/embed/jZW14F24hSk"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+
+                                </iframe>
+                            </div>
+                            <div class="col-4 text-center">
+                                <iframe style="width: 100%; height: 200px;"
+                                        src="https://www.youtube.com/embed/HEKaylX9Cbw"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+
+                                </iframe>
+                            </div>
+                            <div class="col-4 text-right">
+                                <iframe style="width: 100%; height: 200px;"
+                                        src="https://www.youtube.com/embed/IJV-Ldr4A2I"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 text-center">
+                                <h4>卡邦尼斯<br>IMC世界拳王</h4>
+                            </div>
+                            <div class="col-4 text-center">
+                                <h4>羅傑<br>I-1 太平洋拳王</h4>
+                            </div>
+                            <div class="col-4 text-center">
+                                <h4>劉寶茵<br>全球華人傑出青年</h4>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-4">
+                                <iframe style="width: 100%; height: 200px;"
+                                        src="https://www.youtube.com/embed/riHKM4lqFY0"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+
+                                </iframe>
+                            </div>
+                            <div class="col-4 text-center">
+                                <iframe style="width: 100%; height: 200px;"
+                                        src="https://www.youtube.com/embed/wJ9gCDRWrn4"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+
+                                </iframe>
+                            </div>
+                            <div class="col-4 text-right">
+                                <iframe style="width: 100%; height: 200px;"
+                                        src="https://www.youtube.com/embed/lQTBk7KTeBQ"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 text-center">
+                                <h4>林文傑<br>星级冠軍健身教練</h4>
+                            </div>
+                            <div class="col-4 text-center">
+                                <h4>盧政屹<br>MMC世界格鬥理事會亞泰區總裁</h4>
+                            </div>
+                            <div class="col-4 text-center">
+                                <h4>林迪安<br>荷里活動作導演 <br> 22世纪殺人網絡 & 蜘蛛侠2</h4>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-4">
+                                <iframe style="width: 100%; height: 200px;"
+                                        src="https://www.youtube.com/embed/GHIXKiedDK4"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+
+                                </iframe>
+                            </div>
+                            <div class="col-4 text-center">
+                                <iframe style="width: 100%; height: 200px;"
+                                        src="https://www.youtube.com/embed/MXJDOy7bikw"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+
+                                </iframe>
+                            </div>
+                            <div class="col-4 text-right">
+                                <iframe style="width: 100%; height: 200px;"
+                                        src="https://www.youtube.com/embed/Cwh4g0GhGhA"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 text-center">
+                                <h4>王泰鴻<br>醫生</h4>
+                            </div>
+                            <div class="col-4 text-center">
+                                <h4>蘇子傑<br>律師</h4>
+                            </div>
+                            <div class="col-4 text-center">
+                                <h4>郭政鴻<br>中國香港藝人</h4>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-4">
+                                <iframe style="width: 100%; height: 200px;"
+                                        src="https://www.youtube.com/embed/_GY-HDv4yG4"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+
+                                </iframe>
+                            </div>
+                            <div class="col-4 text-center">
+                                <iframe style="width: 100%; height: 200px;"
+                                        src="https://www.youtube.com/embed/ixu3Rz4G2vU"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+
+                                </iframe>
+                            </div>
+                            <div class="col-4 text-right">
+                                <iframe style="width: 100%; height: 200px;"
+                                        src="https://www.youtube.com/embed/QSwuGbdM1gw"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 text-center">
+                                <h4>洛度夫<br>首屆I-1世界拳王</h4>
+                            </div>
+                            <div class="col-4 text-center">
+                                <h4>陳凱輝<br>醫生</h4>
+                            </div>
+                            <div class="col-4 text-center">
+                                <h4>胡慧沖<br>泰國通</h4>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-4">
+                                <iframe style="width: 100%; height: 200px;"
+                                        src="https://www.youtube.com/embed/A7Mpv9y1g-g"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+
+                                </iframe>
+                            </div>
+                            <div class="col-4 text-center">
+                                <iframe style="width: 100%; height: 200px;"
+                                        src="https://www.youtube.com/embed/u2FYmiPYIF8"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+
+                                </iframe>
+                            </div>
+                            <div class="col-4 text-right">
+                                <iframe style="width: 100%; height: 200px;"
+                                        src="https://www.youtube.com/embed/VOul8xvb_Vo"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 text-center">
+                                <h4>林國斌<br>中國香港演员</h4>
+                            </div>
+                            <div class="col-4 text-center">
+                                <h4>盧惠光<br>動作演员</h4>
+                            </div>
+                            <div class="col-4 text-center">
+                                <h4>朱永棠<br>中國香港演员</h4>
+                            </div>
+                        </div>
+                        <div class="row mt-5" style="align-items: center;justify-content: center;">
+                            <a href="l3.html"> <button type="button" class="Button_button__1-zFo Header_bannerButton__3aBX2"
+                                    style="font-family: myFirstFont; width: 200px">
+                                更多
+                            </button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="width: 100%; height: 0%;">
+
+        </div>
+    </section>
+    <section class="Roadmap_section__2mSx6" id="roadmap">
+        <div class="Roadmap_title__2IKuB">項目路程</div>
+        <div class="Roadmap_section_body__TFfTs">
+            <div class="Roadmap_stages__3XYXd">
+                <div class="Roadmap_stage__BEKU_">
+                    <div class="Roadmap_percentage__15hfd">第一階段 - 鑄造NFT</div>
+                    <div class="Roadmap_description__3lSQp">
+                        。購買後可即時欣賞過去及未來I-1比賽<br>
+                        。可隨機抽世界各地現場泰拳I-1比賽<br>
+                        。為支持泰拳活動，可以在五間泰拳店舖,學習泰拳所有課程獲得九折優惠
+                    </div>
+                </div>
+                <div class="Roadmap_stage__BEKU_ Roadmap_oddStage__1Zyve">
+                    <div class="Roadmap_percentage__15hfd">第二階段: 遊戲及比比幣</div>
+                    <div class="Roadmap_description__3lSQp">
+                        。未來將會推出比比幣，推出押幣，賺
+                        取高利息<br>
+                        。未來會推出泰拳遊戲賺取比比幣
+                    </div>
+                </div>
+                <div class="Roadmap_stage__BEKU_ Roadmap_oddStage__1Zyve">
+                    <div class="Roadmap_percentage__15hfd">第三階段: 元宇宙</div>
+                    <div class="Roadmap_description__3lSQp">
+                        。日後會把收益在元宇宙購買地皮建立比比龍打泰拳的空間
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Team_section__UaFqP" id="team">
+        <div class="Team_title__2R97J">項目團隊</div>
+        <div class="Team_content__11IlQ">
+            <div class="Team_teammates__136va">
+                <div class="Team_teammate__3m93m"><img src="static/team/25.png"
+                                                       alt="avatar" class="Team_avatar__143y4"><span
+                        class="Team_name__CLtUB" style="font-family: myFirstFont;">Ming</span><span class="Team_description__347ql">聯合創始人</span><!--<br><span
+                        class="Team_description__347ql ">全球傑出華人, I-1 泰拳賽會創辦人,<br> 羸下多場不同國際比賽。</span>-->
+                </div>
+            </div>
+            <div class="Team_teammates__136va">
+                <div class="Team_teammate__3m93m"><img src="static/team/27.png"
+                                                       alt="avatar" class="Team_avatar__143y4"><span
+                        class="Team_name__CLtUB" style="font-family: myFirstFont;">Issac</span><span
+                        class="Team_description__347ql">聯合創始人</span><!--<br><span
+                        class="Team_description__347ql">來自意大利的經驗畫師、<br>並獲得多個國際殊榮。</span>-->
+                </div>
+            </div>
+            <div class="Team_teammates__136va">
+                <div class="Team_teammate__3m93m"><img src="static/team/32.png"
+                                                       alt="avatar" class="Team_avatar__143y4"><span
+                        class="Team_name__CLtUB" style="font-family: myFirstFont;">Josephly</span><span
+                        class="Team_description__347ql">數字藝術家</span><!--<br><span
+                        class="Team_description__347ql">策劃與多家企業合作，<br>致力為比比龍推廣NFT。</span>-->
+                </div>
+            </div>
+            <div class="Team_teammates__136va">
+                <div class="Team_teammate__3m93m"><img src="static/team/33.png"
+                                                       alt="avatar" class="Team_avatar__143y4"><span
+                        class="Team_name__CLtUB" style="font-family: myFirstFont;">Samuel</span><span class="Team_description__347ql">插畫家</span><!--<br><span
+                        class="Team_description__347ql ">全球傑出華人, I-1 泰拳賽會創辦人,<br> 羸下多場不同國際比賽。</span>-->
+                </div>
+            </div>
+        </div>
+
+        <div class="Team_content__11IlQ">
+
+            <div class="Team_teammates__136va">
+                <div class="Team_teammate__3m93m"><img src="static/team/37.png"
+                                                       alt="avatar" class="Team_avatar__143y4"><span
+                        class="Team_name__CLtUB" style="font-family: myFirstFont;">Rita</span><span
+                        class="Team_description__347ql">網絡開發人員</span><!--<br><span
+                        class="Team_description__347ql">來自意大利的經驗畫師、<br>並獲得多個國際殊榮。</span>-->
+                </div>
+            </div>
+            <div class="Team_teammates__136va">
+                <div class="Team_teammate__3m93m"><img src="static/media/ellipse3.2d7905a5.png"
+                                                       alt="avatar" class="Team_avatar__143y4"><span
+                        class="Team_name__CLtUB" style="font-family: myFirstFont;">Charles</span><span
+                        class="Team_description__347ql">區塊鏈開發人員</span><!--<br><span
+                        class="Team_description__347ql">策劃與多家企業合作，<br>致力為比比龍推廣NFT。</span>-->
+                </div>
+            </div>
+            <div class="Team_teammates__136va">
+                <div class="Team_teammate__3m93m"><img src="static/team/41.png"
+                                                       alt="avatar" class="Team_avatar__143y4"><span
+                        class="Team_name__CLtUB" style="font-family: myFirstFont;">Irene</span><span class="Team_description__347ql">營銷專員</span><!--<br><span
+                        class="Team_description__347ql ">全球傑出華人, I-1 泰拳賽會創辦人,<br> 羸下多場不同國際比賽。</span>-->
+                </div>
+            </div>
+            <div class="Team_teammates__136va">
+                <div class="Team_teammate__3m93m"><img src="static/team/44.png"
+                                                       alt="avatar" class="Team_avatar__143y4"><span
+                        class="Team_name__CLtUB" style="font-family: myFirstFont;">Dave</span><span
+                        class="Team_description__347ql">創意作家</span><!--<br><span
+                        class="Team_description__347ql">來自意大利的經驗畫師、<br>並獲得多個國際殊榮。</span>-->
+                </div>
+            </div>
+        </div>
+
+        <div class="Team_content__11IlQ">
+
+            <div class="Team_teammates__136va">
+                <div class="Team_teammate__3m93m"><img src="static/team/46.png"
+                                                       alt="avatar" class="Team_avatar__143y4"><span
+                        class="Team_name__CLtUB" style="font-family: myFirstFont;">Peter</span><span
+                        class="Team_description__347ql">社交媒體經理</span><!--<br><span
+                        class="Team_description__347ql">策劃與多家企業合作，<br>致力為比比龍推廣NFT。</span>-->
+                </div>
+            </div>
+            <div class="Team_teammates__136va">
+                <div class="Team_teammate__3m93m"><img src="static/team/52.png"
+                                                       alt="avatar" class="Team_avatar__143y4"><span
+                        class="Team_name__CLtUB" style="font-family: myFirstFont;">Wendy</span><span class="Team_description__347ql">法律顧問</span><!--<br><span
+                        class="Team_description__347ql ">全球傑出華人, I-1 泰拳賽會創辦人,<br> 羸下多場不同國際比賽。</span>-->
+                </div>
+            </div>
+            <div class="Team_teammates__136va">
+                <div class="Team_teammate__3m93m"><img src="static/team/55.png"
+                                                       alt="avatar" class="Team_avatar__143y4"><span
+                        class="Team_name__CLtUB" style="font-family: myFirstFont;">Susanna</span><span
+                        class="Team_description__347ql">通訊主管</span><!--<br><span
+                        class="Team_description__347ql">來自意大利的經驗畫師、<br>並獲得多個國際殊榮。</span>-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Community_section__1siyS">
+        <div class="Community_content__3TUHf">
+            <div class="Community_title__3Cfe0" style="font-family: myFirstFont;">比比龍NFT</div>
+            <div class="instr-wrap container-fluid">
+                <div class="instr">
+                    <div class="instr__wrap">
+                        <div class="instr__row" style="background-image: url('static/media/ss1.png');"></div>
+                        <div class="instr__row" style="background-image: url('static/media/ss2.png');"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="FAQ_section__3NV10" id="faq">
+        <div class="FAQ_section_inner__20xUy">
+            <div class="FAQ_title__2cpKh">問與答</div>
+            <div class="Roadmap_section_body__TFfTs">
+                <div class="Roadmap_stages__3XYXd">
+                    <div class="Roadmap_stage__BEKU_">
+                        <div class="Roadmap_percentage__15hfd">什麼是 NFT？</div>
+                        <div class="Roadmap_description__3lSQp">Non-Fungible Token (NFT)
+                            是存儲在數字分類賬上的區塊鏈上唯一且不可互換的數據單元。其目的是建立 jpg、視頻、GIF 等數字資產的所有權證明。
+                        </div>
+                    </div>
+                    <div class="Roadmap_stage__BEKU_ Roadmap_oddStage__1Zyve">
+                        <div class="Roadmap_percentage__15hfd">什麼是 Dragon Bibi？</div>
+                        <div class="Roadmap_description__3lSQp">Dragon Bibi 是由一群 NFT 愛好者創建的 NFT，他們希望建立一個充滿樂趣和遊戲的社區！
+                        </div>
+                    </div>
+                    <div class="Roadmap_stage__BEKU_">
+                        <div class="Roadmap_percentage__15hfd">
+                            我可以用我的 Dragon Bibi 做什麼？
+                        </div>
+                        <div class="Roadmap_description__3lSQp" style="font-family: myFirstFont;">每隻 Dragon Bibi
+                            NFT，也可作為會員卡享受會員專屬福利和活動。請務必更改您社交媒體的頭像並告訴您的朋友和家人
+                        </div>
+                    </div>
+                    <div class="Roadmap_stage__BEKU_ Roadmap_oddStage__1Zyve">
+                        <div class="Roadmap_percentage__15hfd">
+                            我怎樣才能得到一隻Dragon Bibi?
+                        </div>
+                        <div class="Roadmap_description__3lSQp">為了獲得 Dragon Bibi，您只需要一個帶有一些以太坊的 MetaMask 錢包，那麼您就可以開始了！
+                        </div>
+                    </div>
+                    <div class="Roadmap_stage__BEKU_">
+                        <div class="Roadmap_percentage__15hfd">
+                            我在哪裡可以得到我的 Dragon Bibi？
+                        </div>
+                        <div class="Roadmap_description__3lSQp">當我們的預售和公開發售啟動時，您可以通過我們的網站獲得 Dragon Bibi。之後，它將可以在 Opensea
+                            上進行二手購買。
+                        </div>
+                    </div>
+                    <div class="Roadmap_stage__BEKU_ Roadmap_oddStage__1Zyve">
+                        <div class="Roadmap_percentage__15hfd">
+                            我什麼時候可以拿到我的 Dragon Bibi？
+                        </div>
+                        <div class="Roadmap_description__3lSQp">請繼續關注我們的 Twitter、官方網站、Discord
+                            頻道的更新，了解有關發佈時間和我們未來計劃的任何消息！
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+</section>
+<footer class="Footer_footer__3iv-3">
+    <div class="Footer_container__31MFV"><img src="static/image/logo.png" alt="logo"
+                                              class="Footer_logoImg__3DCgs">
+
+        <div>
+
+            <a
+                    href="https://www.instagram.com/dragonbibi.nft/" rel="noopener noreferrer" target="_blank"><img
+                    src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png" class="icon_image"/></a>
+            <a href="https://www.facebook.com/Dragonbibi.nft"
+               rel="noopener noreferrer"
+               target="_blank"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/facebook-new.png"
+                                    class="icon_image"/></a>
+            <a href="https://discord.gg/9eGfq3S6jK" rel="noopener noreferrer" target="_blank"><img
+                    src="https://img.icons8.com/ios-glyphs/30/ffffff/discord-logo.png" class="icon_image"/></a>
+            <a
+                    href="https://twitter.com/Dragonbibi_nft" rel="noopener noreferrer" target="_blank"><img
+                    src="https://img.icons8.com/ios-glyphs/30/ffffff/twitter&#45;&#45;v1.png" class="icon_image"/></a>
+        </div>
+        <div class="text-center">
+            COPYRIGHT © Dragon bibi
+            ALL RIGHTS RESERVED
+        </div>
+    </div>
+
+</footer>
+
+
+<script src="static/js/2.a63b8838.chunk.js"></script>
+<script src="static/js/main.187d445c.chunk.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src='https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.6/dist/js/splide.min.js'></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        new Splide('#splide', {
+            type: 'loop',
+            perPage: 3,
+            focus: 'center',
+            autoplay: true,
+            interval: 8000,
+            flickMaxPages: 3,
+            updateOnMove: true,
+            pagination: false,
+            padding: '10%',
+            throttle: 300,
+            breakpoints: {
+                1440: {
+                    perPage: 1,
+                    padding: '30%'
+                }
+            }
+        }).mount();
+    });
+</script>
+</body>
+</html>
