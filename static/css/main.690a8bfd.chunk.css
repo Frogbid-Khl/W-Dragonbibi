@@ -4094,4 +4094,5 @@ display: none;
 
 .heading-font{
     font-family: headingFont;
+    text-transform: uppercase;
 }
