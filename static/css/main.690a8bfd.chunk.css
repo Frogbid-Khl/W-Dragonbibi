@@ -4096,3 +4096,13 @@ display: none;
     font-family: headingFont;
     text-transform: uppercase;
 }
+@media screen and (max-width: 992px) {
+    #btnGroupDrop1{
+        height: 79px;
+        width: 180px;
+        font-size: 25px;
+    }
+    .dropdown-item{
+        font-size: 25px;
+    }
+}
